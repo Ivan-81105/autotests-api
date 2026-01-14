@@ -36,7 +36,7 @@ class APIClient:
         """
         return self.client.post(url, json=json, data=data, files=files)
     
-    def patch(self, url: URL | str, json: Any | None = None):
+    def patch(self, url: URL | str, json: Any | None = None) -> Response:
         """
         Выполняет PATCH-запрос (частичное обновление данных).
 
@@ -46,7 +46,7 @@ class APIClient:
         """
         return self.client.patch(url, json=json)
 
-    def delete(self, url: URL | str):
+    def delete(self, url: URL | str) -> Response:
         """
         Выполняет DELETE-запрос (удаление данных).
 
