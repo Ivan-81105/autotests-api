@@ -5,7 +5,7 @@ class UserSchema(BaseModel):
     """
     Описание структуры пользователя
     """
-    id: HttpUrl
+    id: str
     email: EmailStr
     last_name: str = Field(alias="lastName")
     first_name: str = Field(alias="firstName")
