@@ -1,6 +1,4 @@
-from clients.authentication.authentication_client import get_authentication_client
 from clients.private_http_builder import AuthenticationUserSchema
-from clients.public_http_builder import get_public_http_client
 from clients.users.private_users_client import get_private_users_client
 from clients.users.public_users_client import get_public_users_client
 from clients.users.user_schema import CreateUserRequestSchema
