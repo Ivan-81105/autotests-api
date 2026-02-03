@@ -26,8 +26,5 @@ private_users_client = get_private_users_client(authentication_user)
 get_user_response = private_users_client.get_user_api(create_user_response.user.id)
 get_user_response_schema = GetUserResponseSchema.model_json_schema()
 
-
 validate_json_schema(instance=get_user_response.json(), schema=get_user_response_schema)
-print(get_user_response.json())
-print(get_user_response_schema)
 print(validate_json_schema)
