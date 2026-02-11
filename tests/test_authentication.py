@@ -4,11 +4,14 @@ from clients.users.public_users_client import get_public_users_client
 from clients.users.user_schema import CreateUserRequestSchema
 from tools.assertions.authentication import assert_login_response
 from tools.assertions.base import assert_status_code
+import pytest
 from http import HTTPStatus
 
 from tools.assertions.schema import validate_json_schema
 
 
+@pytest.mark.authentication
+@pytest.mark.regression
 def test_login():
     public_users_client = get_public_users_client()
     authentication_client = get_authentication_client()
