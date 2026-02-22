@@ -4,6 +4,7 @@ from clients.files.files_schema import FileSchema
 from clients.users.user_schema import UserSchema
 from tools.fakers import fake
 
+
 class CourseSchema(BaseModel):
     """
     Описание модели курса.
