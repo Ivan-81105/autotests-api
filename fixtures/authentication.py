@@ -2,6 +2,6 @@ from clients.authentication.authentication_client import get_authentication_clie
 import pytest
 
 
-@pytest.fixture()
+@pytest.fixture
 def authentication_client() -> AuthenticationClient:
     return get_authentication_client()
