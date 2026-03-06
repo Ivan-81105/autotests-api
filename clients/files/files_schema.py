@@ -26,3 +26,10 @@ class CreateFileResponseSchema(BaseModel):
     Описание модели ответа создания файла.
     """
     file: FileSchema
+
+
+class GetFileResponseSchema(BaseModel):
+    """
+    Описание модели ответа создания файла.
+    """
+    file: FileSchema
