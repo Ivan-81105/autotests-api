@@ -1,6 +1,7 @@
 from pydantic import BaseModel, Field, ConfigDict
 from tools.fakers import fake
 
+
 class ExerciseSchema(BaseModel):
     """
     Описание структуры задания.

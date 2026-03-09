@@ -5,7 +5,7 @@ from clients.exercises.exercises_schema import GetExercisesQuerySchema, CreateEx
 from clients.private_http_builder import get_private_http_client, AuthenticationUserSchema
 
 
-class Exercises_Client(APIClient):
+class ExercisesClient(APIClient):
     """
     Клиент для работы с /api/v1/exercises
     """
@@ -73,10 +73,10 @@ class Exercises_Client(APIClient):
         return UpdateExerciseResponseSchema.model_validate_json(response.text)
 
 
-def get_exercises_client(user: AuthenticationUserSchema) -> Exercises_Client:
+def get_exercises_client(user: AuthenticationUserSchema) -> ExercisesClient:
     """
    Функция создаёт экземпляр Exercises_Client с уже настроенным HTTP-клиентом.
 
    :return: Готовый к использованию Exercises_Client.
    """
-    return Exercises_Client(client=get_private_http_client(user))
+    return ExercisesClient(client=get_private_http_client(user))
