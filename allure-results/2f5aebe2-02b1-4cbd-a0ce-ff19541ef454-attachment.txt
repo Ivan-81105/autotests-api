@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI1VDIxOjE3OjIzLjYwMjc4NiIsInVzZXJfaWQiOiIzZTJhMzVmMS1lOWNiLTQ0Y2EtOTc5Yy1kMmFhZjJjYjZiOTcifQ.m33CZ_QFDg8rVlxGlEjvN-wb69CoTtKPz-RSkrCQ60Y' \
+ -H 'content-length: 393' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Pattern hair must skill fight level prepare with.","maxScore":55,"minScore":12,"description":"Voice society player fine federal ever firm wonder. Modern significant meeting can none read sing. Black rule enjoy senior skill dog continue former.","estimatedTime":"1 weeks","previewFileId":"4d9c2669-84cd-41e4-a0c3-5530fe0c6ccf","createdByUserId":"3e2a35f1-e9cb-44ca-979c-d2aaf2cb6b97"}'

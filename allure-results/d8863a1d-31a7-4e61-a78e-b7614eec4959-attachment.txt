@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI1VDIxOjE3OjI3LjkwNTE4OCIsInVzZXJfaWQiOiI1YzZlYjk1YS03YTQxLTQ4YjgtOGMxYy0wZDRmYTFkOTAyYjIifQ.cYmAiEiYLiwBNvxYVy4QUgcW4cM6cqiLChpSB4qFojY' \
+ -H 'content-length: 342' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Around themselves company four claim dinner nearly.","maxScore":86,"minScore":10,"description":"Sister reduce reach identify personal source. Trouble body agreement. Decide region chair turn.","estimatedTime":"10 weeks","previewFileId":"54ca448c-3179-4be6-870c-552570393383","createdByUserId":"5c6eb95a-7a41-48b8-8c1c-0d4fa1d902b2"}'

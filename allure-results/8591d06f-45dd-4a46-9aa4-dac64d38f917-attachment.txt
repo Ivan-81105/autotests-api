@@ -1,0 +1,21 @@
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:25 Got response 200 OK from http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:25 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:25 Got response 200 OK from http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:25 Got response 200 OK from http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/exercises
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:25 Got response 200 OK from http://localhost:8000/api/v1/exercises
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:21 Make PATCH request to http://localhost:8000/api/v1/exercises/c075e54a-2996-43a0-af94-8a8813de9d6d
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:25 Got response 200 OK from http://localhost:8000/api/v1/exercises/c075e54a-2996-43a0-af94-8a8813de9d6d
+[32mINFO    [0m BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+[32mINFO    [0m BASE_ASSERTIONS:base.py:36 Check that 'title' equals to Son end commercial many certain.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:36 Check that 'max_score' equals to 81
+[32mINFO    [0m BASE_ASSERTIONS:base.py:36 Check that 'min_score' equals to 21
+[32mINFO    [0m BASE_ASSERTIONS:base.py:36 Check that 'order_index' equals to 40
+[32mINFO    [0m BASE_ASSERTIONS:base.py:36 Check that 'description' equals to Serve team look hear similar. House second bad. Offer know social whether similar like question big.
+Attention different speak little few know. Thus wide test head event.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:36 Check that 'estimated_time' equals to 2 weeks
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:19 Validation JSON schema

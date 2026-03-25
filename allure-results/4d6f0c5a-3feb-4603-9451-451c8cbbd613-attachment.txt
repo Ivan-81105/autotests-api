@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI1VDIxOjE3OjM3LjY0NDE0OCIsInVzZXJfaWQiOiI4YzJmZmY1MC05OGY4LTRhNjgtOGNmMi0xNzE2ZjEwYWRlNTAifQ.5wS-PrZ4CaDetS72wvW8y_9SN8wPUWgAcn6qGz_b57M' \
+ -H 'content-length: 407' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Member perhaps within catch.","maxScore":60,"minScore":21,"description":"Dog hear exist serve direction budget. Keep left fire return security kind good.\nCut more TV sister region area its. Too late return discussion itself argue first. Kind artist season.","estimatedTime":"7 weeks","previewFileId":"95551baa-775c-4c17-819f-9925d1811c0e","createdByUserId":"8c2fff50-98f8-4a68-8cf2-1716f10ade50"}'

@@ -4,7 +4,7 @@ from clients.authentication.authentication_schema import LoginRequestSchema
 from pydantic import BaseModel
 from functools import lru_cache
 from config import settings
-from clients.event_hooks import curl_event_hook
+from clients.event_hooks import curl_event_hook, log_request_event_hook, log_response_event_hook
 
 
 class AuthenticationUserSchema(BaseModel, frozen=True):
@@ -29,6 +29,8 @@ def get_private_http_client(user: AuthenticationUserSchema) -> Client:
         timeout=settings.http_client.timeout,
         base_url=settings.http_client.client_url,
         headers={"Authorization": f"Bearer {login_response.token.access_token}"},
-        event_hooks={"request": [curl_event_hook]}
-        # event hook для запроса: автоматического прикрепления cURL команды к Allure отчету
+        event_hooks={
+            "request": [curl_event_hook, log_request_event_hook],
+            "response": [log_response_event_hook]
+        }
     )

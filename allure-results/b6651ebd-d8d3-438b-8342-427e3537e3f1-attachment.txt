@@ -1,0 +1,19 @@
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:25 Got response 200 OK from http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:25 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:25 Got response 200 OK from http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:25 Got response 200 OK from http://localhost:8000/api/v1/courses
+[32mINFO    [0m BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+[32mINFO    [0m COURSES_ASSERTIONS:courses.py:84 Check create course response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:36 Check that 'title' equals to Member perhaps within catch.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:36 Check that 'max_score' equals to 60
+[32mINFO    [0m BASE_ASSERTIONS:base.py:36 Check that 'min_score' equals to 21
+[32mINFO    [0m BASE_ASSERTIONS:base.py:36 Check that 'description' equals to Dog hear exist serve direction budget. Keep left fire return security kind good.
+Cut more TV sister region area its. Too late return discussion itself argue first. Kind artist season.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:36 Check that 'estimated_time' equals to 7 weeks
+[32mINFO    [0m BASE_ASSERTIONS:base.py:36 Check that 'preview_file_id' equals to 95551baa-775c-4c17-819f-9925d1811c0e
+[32mINFO    [0m BASE_ASSERTIONS:base.py:36 Check that 'created_by_user_id' equals to 8c2fff50-98f8-4a68-8cf2-1716f10ade50
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:19 Validation JSON schema

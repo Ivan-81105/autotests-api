@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI1VDIxOjE3OjQyLjg1OTYwMiIsInVzZXJfaWQiOiI0ODU3NGNjZC0yYjFlLTQ1ZjQtOGRjMC04YjJkNjI2N2JhZGUifQ.iBk-Q7BSmYzShldCC4UxHQhaaiBqydxiQ9v6Yzi4nVI' \
+ -H 'content-length: 366' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Because society job particularly majority present ready fall.","maxScore":65,"minScore":22,"description":"Your reach tree treatment from peace. Program animal whatever throw full quite prevent. Mr drop force meeting.","estimatedTime":"7 weeks","previewFileId":"f220be13-387c-49fc-a619-d2321a52ca5a","createdByUserId":"48574ccd-2b1e-45f4-8dc0-8b2d6267bade"}'
