@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDE0OjEyOjM1LjI2MTM3MyIsInVzZXJfaWQiOiIwNzgwZWRhZS0xNTljLTQxNTktYTc2Ni03NzU0NGU1M2MzMWMifQ.lu-V5IW3zgE6QfSOJrsw1p9qbl1SyeFgQbqlTEooLJw' \
+ -H 'content-length: 395' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Operation if everything wonder exactly.","maxScore":54,"minScore":15,"description":"Three chance decade doctor somebody option enter. Wide house some discuss certainly along.\nForget political behavior appear. American stay floor citizen strong.","estimatedTime":"5 weeks","previewFileId":"e499fe36-6fec-46f7-9a3e-5f9ed610c729","createdByUserId":"0780edae-159c-4159-a766-77544e53c31c"}'

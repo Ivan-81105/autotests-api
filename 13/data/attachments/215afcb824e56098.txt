@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDE0OjEyOjM0LjA2OTEwMyIsInVzZXJfaWQiOiI3MWU3ODhkNS0yNmI1LTQ1MWMtOTgyOS0xNWY4Njc0NGJmNWEifQ.q7g-abY_kx9RMSrB9Ou5vWY3QtBvLGTHAl0QNELBaZo' \
+ -H 'content-length: 412' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Run perform feeling article how artist wrong.","maxScore":86,"minScore":22,"description":"Building budget anyone he ahead daughter.\nTown kitchen should remember professor find would. Half stand price personal lawyer feeling. Scientist middle arm stay the both.","estimatedTime":"10 weeks","previewFileId":"dff649d1-983e-42e9-9d5a-473f9e8c35b1","createdByUserId":"71e788d5-26b5-451c-9829-15f86744bf5a"}'

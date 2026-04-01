@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDE0OjEyOjM1LjI2MTM3MyIsInVzZXJfaWQiOiIwNzgwZWRhZS0xNTljLTQxNTktYTc2Ni03NzU0NGU1M2MzMWMifQ.lu-V5IW3zgE6QfSOJrsw1p9qbl1SyeFgQbqlTEooLJw' \
+ -H 'content-length: 280' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Country six whose hundred building modern.","courseId":"6658a3e6-1711-4892-9f10-cb6e56a5c2be","maxScore":76,"minScore":30,"orderIndex":65,"description":"Least play economy lay. Employee too environmental. Suffer issue small in movie personal.","estimatedTime":"2 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDE0OjEyOjM0LjM0MjUxNyIsInVzZXJfaWQiOiJjYmZhNDAxNy1kMWNiLTQyMzMtYjBiZS1jYWUxNzBiN2YzMjcifQ.sWW0modMLywMW8pR3ZRvPIoL6x4bWQ94kFNEqncYcGA' \
+ -H 'content-length: 385' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Bill green nothing ability building such team.","maxScore":89,"minScore":8,"description":"Positive consumer above along care.\nSerious there ready go well suddenly. Fill general teacher first especially decision. Particular still back.","estimatedTime":"6 weeks","previewFileId":"32abf941-3800-4302-99cc-0572852ae515","createdByUserId":"cbfa4017-d1cb-4233-b0be-cae170b7f327"}'

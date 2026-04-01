@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDE0OjEyOjM2LjQ2NzUwMiIsInVzZXJfaWQiOiJmZjIyM2Y0NS1jMTFmLTQ4YzUtYTY3NC0yZGY1ZTIwODA2MjcifQ.eeNJNQbxxFOaZeDIhp4fvPhjtcHkEYde2N2Yh4uetn0' \
+ -H 'content-length: 382' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Subject know will travel.","maxScore":77,"minScore":18,"description":"Movement other life bring. Job trial car middle oil enter share. Newspaper east thus party.\nDay yourself peace air staff line notice. Realize black nearly break.","estimatedTime":"2 weeks","previewFileId":"0d885055-4721-4b37-b4c8-7d8636087ee2","createdByUserId":"ff223f45-c11f-48c5-a674-2df5e2080627"}'

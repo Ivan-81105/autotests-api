@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDE0OjEyOjMzLjE4NjAzOCIsInVzZXJfaWQiOiI3MDE5ZDAyYy1kNDhiLTQ3YjktOGVkYy1lN2Y4NWMxMWQyM2IifQ.wkY8KpN7zXKlux947kmn5EKIPR0AopSQLfM8HcpcO0I' \
+ -H 'content-length: 389' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Reality century natural attorney impact.","maxScore":92,"minScore":21,"description":"Join fast they long miss either learn. Continue fine class expect system unit example.\nThemselves always this present nearly. Mr but already wrong safe.","estimatedTime":"10 weeks","previewFileId":"e9b029c5-02b6-4dfb-b55c-21a99c320b5a","createdByUserId":"7019d02c-d48b-47b9-8edc-e7f85c11d23b"}'

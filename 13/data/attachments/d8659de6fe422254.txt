@@ -1,0 +1,26 @@
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises?courseId=d998e9da-ad82-4505-9094-bdcd45a6ee51
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=d998e9da-ad82-4505-9094-bdcd45a6ee51
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:119 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:72 Check that length of 'exercises' equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:45 Check exercise
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'id' equals to b63991fe-c4b3-45f7-8406-e282aa549602
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'title' equals to According sport opportunity since parent somebody.
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'course_id' equals to d998e9da-ad82-4505-9094-bdcd45a6ee51
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'max_score' equals to 51
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'min_score' equals to 10
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'order_index' equals to 10
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'description' equals to Score at because. Hand party low mention. Question book throughout time. Animal beyond group.
+Significant behind continue old bar onto. A operation image fund PM tonight.
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'estimated_time' equals to 3 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validation JSON schema

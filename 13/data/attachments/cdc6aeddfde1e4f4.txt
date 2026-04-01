@@ -1,0 +1,19 @@
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Make PATCH request to http://localhost:8000/api/v1/courses/b59b82e3-4a7b-46be-bc24-af643fe2554e
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses/b59b82e3-4a7b-46be-bc24-af643fe2554e
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:24 Check update course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'title' equals to Wait somebody kid yard walk picture whatever.
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'max_score' equals to 93
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'min_score' equals to 8
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'description' equals to Discuss read loss unit decide. Conference high assume should fire. Why now medical woman late head. Data fall think of.
+Start reduce win husband office per. Pretty amount listen increase.
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'estimated_time' equals to 9 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validation JSON schema

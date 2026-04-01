@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/courses/b59b82e3-4a7b-46be-bc24-af643fe2554e' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDE0OjEyOjM0LjA2OTEwMyIsInVzZXJfaWQiOiI3MWU3ODhkNS0yNmI1LTQ1MWMtOTgyOS0xNWY4Njc0NGJmNWEifQ.q7g-abY_kx9RMSrB9Ou5vWY3QtBvLGTHAl0QNELBaZo' \
+ -H 'content-length: 315' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Wait somebody kid yard walk picture whatever.","maxScore":93,"minScore":8,"description":"Discuss read loss unit decide. Conference high assume should fire. Why now medical woman late head. Data fall think of.\nStart reduce win husband office per. Pretty amount listen increase.","estimatedTime":"9 weeks"}'
