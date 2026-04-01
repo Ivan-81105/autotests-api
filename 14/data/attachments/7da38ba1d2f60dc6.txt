@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDE0OjEyOjUxLjQxNzY2NyIsInVzZXJfaWQiOiI3ZGEzMjZiNC1lYzRjLTQ4OTQtOGI2My0xMDZmYzFjMjU5ZDUifQ.de-5HcPl9ohnXx1aD77lrmyLVtSvYw-UtGptRzO3yB8' \
+ -H 'content-length: 329' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Her alone range like economic.","maxScore":60,"minScore":6,"description":"Perform often once simple learn sea. Add keep performance sign open city fall. Seat traditional attorney.","estimatedTime":"5 weeks","previewFileId":"648e628a-6bef-40b7-af13-1a969c54d569","createdByUserId":"7da326b4-ec4c-4894-8b63-106fc1c259d5"}'

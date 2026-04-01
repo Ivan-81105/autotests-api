@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDE0OjEyOjUyLjI5ODI4MyIsInVzZXJfaWQiOiJkZTI4YzQxYi02YTRiLTQzZjgtOTI5Yy1kMzgwOGM5YjYwNDUifQ.Trkoj-s6SXurjMKNZLLPSAr-dME_ILoqq6hVd-BdAQM' \
+ -H 'content-length: 388' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Course not result goal entire.","maxScore":80,"minScore":18,"description":"You carry side enter. Test meeting ahead oil then issue. Turn military various land.\nOccur out cause before level me book. After win difficult purpose law become.","estimatedTime":"5 weeks","previewFileId":"a45b43cb-2e57-4d60-86f6-05840fa9022b","createdByUserId":"de28c41b-6a4b-43f8-929c-d3808c9b6045"}'

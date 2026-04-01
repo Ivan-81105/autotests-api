@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDE0OjEyOjQ5LjE0OTQ2OSIsInVzZXJfaWQiOiI1ZjE2ZmM4Yi00Y2FiLTQyZjEtYTIxYi0zNjk3YTIyN2IxZGEifQ.FgSo0CnppW5_zkQFDu0MAe-4QMJpgDDag0TB7p4fvmI' \
+ -H 'content-length: 422' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Draw rest game nation partner positive.","maxScore":55,"minScore":10,"description":"Body resource trouble move you everyone discuss. President science once top. Whether item doctor protect.\nRegion I business determine room. Build successful crime already toward computer.","estimatedTime":"1 weeks","previewFileId":"cf28a21a-37e1-40b3-89af-7d23a2386aae","createdByUserId":"5f16fc8b-4cab-42f1-a21b-3697a227b1da"}'

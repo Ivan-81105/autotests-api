@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDE0OjEyOjQ3Ljc5OTQ5NCIsInVzZXJfaWQiOiIyYTIwOWJhOS0wOGJlLTRlYzYtODYyYi01OWY3N2U5YzdlYWQifQ.wMX_yKePx4Curi5BZpBEpETPofDv52-h9MOEHgLQKc4' \
+ -H 'content-length: 368' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Increase safe the start article subject.","maxScore":80,"minScore":15,"description":"Write pick cover the not. Create rock build responsibility main travel responsibility. Senior different develop test seek reason add.","estimatedTime":"3 weeks","previewFileId":"2b63e749-6f61-408d-8db3-30c4c93a9e06","createdByUserId":"2a209ba9-08be-4ec6-862b-59f77e9c7ead"}'

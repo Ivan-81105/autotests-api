@@ -1,0 +1,25 @@
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises?courseId=9be51813-06b5-42e8-a03a-0035f812198b
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=9be51813-06b5-42e8-a03a-0035f812198b
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:119 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:72 Check that length of 'exercises' equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:45 Check exercise
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'id' equals to 5e16e2f9-8932-4f2f-9294-b6b788b4e754
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'title' equals to Miss statement describe protect.
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'course_id' equals to 9be51813-06b5-42e8-a03a-0035f812198b
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'max_score' equals to 63
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'min_score' equals to 27
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'order_index' equals to 63
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'description' equals to Only us alone than indicate. Across seem author foreign development moment create almost.
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'estimated_time' equals to 3 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validation JSON schema

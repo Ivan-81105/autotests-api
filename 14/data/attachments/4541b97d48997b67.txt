@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDE0OjEyOjUwLjI3NjI2MyIsInVzZXJfaWQiOiJiYjY2MDM0NC05NTAwLTQ0N2UtYTZkZC05MmJhYTg2YzZhMzUifQ.V-dkQhpi-yvldXcdbB6EZQ94tgl9bf5lG7yDo7L3aFQ' \
+ -H 'content-length: 423' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Attention enough debate involve far house though.","maxScore":52,"minScore":29,"description":"Environment four tree. Involve executive choice situation. Pass under door hard.\nFact air several Mr moment situation hot. Choose force father event whole collection mouth hotel.","estimatedTime":"6 weeks","previewFileId":"f29bbd58-eb87-4e40-b899-47ebd643f2cb","createdByUserId":"bb660344-9500-447e-a6dd-92baa86c6a35"}'
