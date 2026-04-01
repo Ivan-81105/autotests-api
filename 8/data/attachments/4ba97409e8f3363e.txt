@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDA4OjMwOjA0LjM4MTQ4NSIsInVzZXJfaWQiOiI4ODhlMmFjZC0xN2JkLTRlMDMtOGVlYy03ZDI3Yjg3YzRlZTMifQ.kTw-ywC0TjbWDtqKSjwcEeIbhpIeoTNekqUMJzbjkbI' \
+ -H 'content-length: 385' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Doctor think little soon true organization.","maxScore":67,"minScore":10,"description":"Ask power water physical feeling prepare whose. Central bank poor report nature air movement. Would today those whole soldier suggest remain since.","estimatedTime":"1 weeks","previewFileId":"678969b2-5086-4fd6-94df-5c04aae86fa3","createdByUserId":"888e2acd-17bd-4e03-8eec-7d27b87c4ee3"}'

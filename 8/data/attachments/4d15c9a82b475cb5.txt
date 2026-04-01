@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDA4OjMwOjA0LjY1NjcwMCIsInVzZXJfaWQiOiJmMWRhMWFkMy0wNTJjLTRiZjctYWY2Ni1mZTdhZjU2NjhmYzMifQ.jcVGjRw0BaA97XD7acxwrah5GiouSi_JQlc_rx_TjVE' \
+ -H 'content-length: 292' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Order card ahead up piece return off process.","maxScore":92,"minScore":30,"description":"City half push try well plant. Democrat enough road.","estimatedTime":"3 weeks","previewFileId":"8cbad4c5-77a1-49ac-995a-bd4cb238c403","createdByUserId":"f1da1ad3-052c-4bf7-af66-fe7af5668fc3"}'

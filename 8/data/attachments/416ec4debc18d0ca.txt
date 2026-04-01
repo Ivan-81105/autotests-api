@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/exercises/b3182d84-728c-44be-bb7f-e6bc6dfe96a5' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDA4OjMwOjA0LjM4MTQ4NSIsInVzZXJfaWQiOiI4ODhlMmFjZC0xN2JkLTRlMDMtOGVlYy03ZDI3Yjg3YzRlZTMifQ.kTw-ywC0TjbWDtqKSjwcEeIbhpIeoTNekqUMJzbjkbI' \
+ -H 'content-length: 323' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Total pass city each form single turn serve.","maxScore":96,"minScore":23,"orderIndex":3,"description":"Bed speech wall role explain situation garden.\nSet door class. Front above hundred hear truth husband the.\nWhole chair plan major. Choice hold nature wife feel including special.","estimatedTime":"10 weeks"}'

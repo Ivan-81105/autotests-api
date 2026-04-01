@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDA4OjMwOjAyLjMwNTYxOSIsInVzZXJfaWQiOiJlYzNmOThkMy1lMDljLTRjNmMtYTEyOC0xYzQ2NDYyM2Q3YjQifQ.YUqRLlRiUGsBsn4ZOcjsMusjIWDkm7xZNZ94qpxoKOY' \
+ -H 'content-length: 399' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Impact church around.","maxScore":68,"minScore":30,"description":"Hope PM never us. Indeed across child reflect here. Executive couple wall wait high value.\nGeneration action mother whose. Operation traditional hair discussion now. Whose nearly up.","estimatedTime":"7 weeks","previewFileId":"62ce44e4-425e-4319-bc66-05cd769f83e8","createdByUserId":"ec3f98d3-e09c-4c6c-a128-1c464623d7b4"}'

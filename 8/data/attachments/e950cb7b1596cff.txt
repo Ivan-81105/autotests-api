@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDA4OjMwOjA1Ljg1NTE1NiIsInVzZXJfaWQiOiJkMDdjNDBiOC03NWNhLTQzNDYtYTA5Mi05MTQxODA3YWIwOGUifQ.WqzrWJQBxffgyfh5JbNLKjNHpzauknl6dh6UgOiJdMc' \
+ -H 'content-length: 341' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Window say now hand then.","maxScore":66,"minScore":19,"description":"Eat suggest some. Red set present reveal you song brother.\nMember unit their kind idea care bit. Keep about none notice.","estimatedTime":"9 weeks","previewFileId":"5ccc7a67-c7e1-4b1e-95cd-45deb6a3e4c8","createdByUserId":"d07c40b8-75ca-4346-a092-9141807ab08e"}'

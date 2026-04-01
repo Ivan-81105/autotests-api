@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDA4OjMwOjAzLjQ1Nzc3NSIsInVzZXJfaWQiOiJkMTNkNzEwOS05MzhhLTQ4YWItODg3ZS00YTU5NzRlZTE1N2UifQ.Z8YwXtStFoevdelasYnOVfVFelSc3UUIBQClsQIj3qs' \
+ -H 'content-length: 384' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Understand job state word room economy.","maxScore":67,"minScore":6,"description":"Past continue at oil catch rise. Feel total difference experience financial maintain.\nThus alone compare crime risk road. Course degree during reduce.","estimatedTime":"5 weeks","previewFileId":"cc1323e5-faf6-412c-a33d-16066af1b268","createdByUserId":"d13d7109-938a-48ab-887e-4a5974ee157e"}'

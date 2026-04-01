@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDA4OjMwOjAzLjE4NDcxNCIsInVzZXJfaWQiOiIyNTE2ZWMzZi00Nzc3LTQxZjItOGNlZi05N2Y5MmY2NzhmM2QifQ.-P8WA_MEJglpSoKPZHknhMmgs6AF67Zq9KxeVAMXQZc' \
+ -H 'content-length: 420' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Number almost career million sit condition expect.","maxScore":80,"minScore":30,"description":"Respond get him forward over once red itself. Edge century technology hot. Successful window low with.\nStudy just avoid investment. Hit serious economic exist rate pass away.","estimatedTime":"5 weeks","previewFileId":"318ed18f-9ac2-422f-a0ef-35b91c53a264","createdByUserId":"2516ec3f-4777-41f2-8cef-97f92f678f3d"}'
