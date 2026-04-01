@@ -71,7 +71,7 @@ jobs:
           name: allure-results
           path: allure-results
 
-      - name: Generate Allure Report with history
+      - name: Generate Allure Report with  history
         uses: simple-elf/allure-report-action@v1.13
         if: always()
         with:
