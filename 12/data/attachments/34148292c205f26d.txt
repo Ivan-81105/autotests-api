@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDE0OjA3OjQwLjAzNzY4OSIsInVzZXJfaWQiOiI3MDgxZGFmMi0zMTA0LTRjOWMtYTFlMi1kMmQyMzkyNjk5YmYifQ.rILoXvuhE1UbIsohbGRdz7yrF0hfbPQO5Tkqw0v4r08' \
+ -H 'content-length: 416' \
+ -H 'content-type: application/json' \
+ -d '{"title":"My bit hear toward who.","maxScore":61,"minScore":18,"description":"Change action a drop police. Movie when win while likely. Benefit draw despite tax. Task move as minute east top feeling food.\nSeveral car statement education want safe. Eye simple big early heart.","estimatedTime":"3 weeks","previewFileId":"4ff79b80-de6c-42d2-89e4-636150a3e225","createdByUserId":"7081daf2-3104-4c9c-a1e2-d2d2392699bf"}'

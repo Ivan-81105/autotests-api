@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/exercises/37d99b8e-c539-4f44-87fa-c19c7b6ae0ad' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDE0OjA3OjQyLjMxNDE1NCIsInVzZXJfaWQiOiIwNWIwMzZhYS03ODFlLTRiMDktYmY1OC03Y2M4OWVkZTM3ZWUifQ.EW36ZPWnIIvK9OWRF86NBAWv6xAa-xIof95Y1DeSUGA' \
+ -H 'content-length: 236' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Remember look out democratic majority.","maxScore":78,"minScore":12,"orderIndex":9,"description":"Actually rate success sometimes thing four make. Girl system court ground. Meet able employee start.","estimatedTime":"9 weeks"}'

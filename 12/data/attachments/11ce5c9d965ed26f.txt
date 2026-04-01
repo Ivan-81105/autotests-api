@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDE0OjA3OjQxLjE5NTgwOCIsInVzZXJfaWQiOiJlZDEyNTA2NC1lOTEwLTQwMDItYjQ4Yy1iOGQ0YTg3NzhhYTEifQ.p5zO7oqpFuHaKJhSgpDEnbIQQHXWTwsUOjGxmB_YfkM' \
+ -H 'content-length: 428' \
+ -H 'content-type: application/json' \
+ -d '{"title":"College from significant control few less several.","maxScore":58,"minScore":5,"description":"Professional movie catch college know wife. Ahead view nice per moment ability material.\nChoose simple couple eye player no rest. Performance can strong key event relate relationship.","estimatedTime":"6 weeks","previewFileId":"e5dabbfd-5d9a-4055-a096-fee047c24f29","createdByUserId":"ed125064-e910-4002-b48c-b8d4a8778aa1"}'

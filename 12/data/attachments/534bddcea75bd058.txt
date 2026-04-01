@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDE0OjA3OjQzLjgwMzQ4NiIsInVzZXJfaWQiOiIyYTg3OWFkOS1mM2NhLTRlZWItOTU3MC0wZWUxMGY4N2U0YWUifQ.aN92iGJNrrRM1SUp9Kf0jmAscOUyU8NK91JYpJmk_Xw' \
+ -H 'content-length: 402' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Himself different travel partner.","maxScore":91,"minScore":12,"description":"Across answer last only bring on say. Six draw stock scene. Your song woman operation.\nLate particular in start. Machine system good give author early.\nCurrent bill almost.","estimatedTime":"4 weeks","previewFileId":"059176fd-2046-4184-be34-edc444a75ac6","createdByUserId":"2a879ad9-f3ca-4eeb-9570-0ee10f87e4ae"}'

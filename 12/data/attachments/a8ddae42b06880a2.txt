@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDE0OjA3OjM5LjQ1MzE0MyIsInVzZXJfaWQiOiJiNmNhMzdkZi04OWZmLTQ2MDctODY3ZC1hYmU1MTNjZmZkNzUifQ.JmiAfYVYYQDQBmK7t1OfDUqD5q2JZskZdtYlSFMTSgQ' \
+ -H 'content-length: 426' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Customer start use chair including near government maybe.","maxScore":57,"minScore":22,"description":"Grow put whole sound throw send event. Suggest point drive understand billion recognize security.\nBoth determine chair window information science. Them light system science.","estimatedTime":"8 weeks","previewFileId":"71456011-6a0c-43ea-9bc1-9403e378ded0","createdByUserId":"b6ca37df-89ff-4607-867d-abe513cffd75"}'

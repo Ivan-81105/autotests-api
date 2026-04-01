@@ -1,0 +1,25 @@
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises?courseId=6ec9fd69-c5ce-401d-ba4f-d43d099c72eb
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=6ec9fd69-c5ce-401d-ba4f-d43d099c72eb
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:119 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:72 Check that length of 'exercises' equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:45 Check exercise
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'id' equals to 9585d4e3-f465-4a81-a7a4-848df295515e
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'title' equals to Feel late exist Mr traditional.
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'course_id' equals to 6ec9fd69-c5ce-401d-ba4f-d43d099c72eb
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'max_score' equals to 55
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'min_score' equals to 5
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'order_index' equals to 75
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'description' equals to Anything it capital rich deep figure. Onto type chair rock all near meeting.
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'estimated_time' equals to 10 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validation JSON schema

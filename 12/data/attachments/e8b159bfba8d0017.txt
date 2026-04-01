@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDE0OjA3OjQyLjYwMDkwMSIsInVzZXJfaWQiOiI5Y2M3NDZiZC0wMWFiLTQ0N2ItYWI4ZS04NTU1YTM2NWQzNGEifQ.erlNsZ_tblOY1OHeWqSsxhPruVN4mBTPO5u2bc15j4A' \
+ -H 'content-length: 424' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Town site program my support it.","maxScore":96,"minScore":12,"description":"Nothing by party soon. Up he fact anyone.\nWrong kid employee shake allow final rather. Car close class own. Story exist sea different research. Happy suggest clear all product movie success watch.","estimatedTime":"9 weeks","previewFileId":"5896c457-bbb9-4050-8891-cc159a658b9e","createdByUserId":"9cc746bd-01ab-447b-ab8e-8555a365d34a"}'

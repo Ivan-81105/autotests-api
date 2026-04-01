@@ -1,0 +1,19 @@
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:84 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'title' equals to My bit hear toward who.
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'max_score' equals to 61
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'min_score' equals to 18
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'description' equals to Change action a drop police. Movie when win while likely. Benefit draw despite tax. Task move as minute east top feeling food.
+Several car statement education want safe. Eye simple big early heart.
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'estimated_time' equals to 3 weeks
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'preview_file_id' equals to 4ff79b80-de6c-42d2-89e4-636150a3e225
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'created_by_user_id' equals to 7081daf2-3104-4c9c-a1e2-d2d2392699bf
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validation JSON schema

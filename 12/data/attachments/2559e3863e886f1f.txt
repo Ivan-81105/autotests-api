@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDE0OjA3OjQyLjMxNDE1NCIsInVzZXJfaWQiOiIwNWIwMzZhYS03ODFlLTRiMDktYmY1OC03Y2M4OWVkZTM3ZWUifQ.EW36ZPWnIIvK9OWRF86NBAWv6xAa-xIof95Y1DeSUGA' \
+ -H 'content-length: 387' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Season by high.","maxScore":90,"minScore":23,"description":"Easy develop question close indeed performance PM. None fact safe poor thought. Total hotel that court.\nSoon list everyone work game. Mr somebody three near today position she.","estimatedTime":"9 weeks","previewFileId":"7901dadd-168f-45a5-82fc-fede2835ccdf","createdByUserId":"05b036aa-781e-4b09-bf58-7cc89ede37ee"}'

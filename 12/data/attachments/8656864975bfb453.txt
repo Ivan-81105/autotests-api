@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDE0OjA3OjQwLjkyMTQyNiIsInVzZXJfaWQiOiI5MzYzZDAwYi00MWU0LTRkYjUtOWYxMy1hYWZiNzliZmIxMmIifQ.xZmhINNwUDdioBJQmoce2IGtBFJ6u8Bbb2mIubINEEg' \
+ -H 'content-length: 402' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Property control agree Mr black artist live.","maxScore":99,"minScore":26,"description":"Through shoulder interesting shake. Campaign toward probably minute energy throughout.\nCitizen radio glass shoulder. Company television huge cause beyond quickly.","estimatedTime":"6 weeks","previewFileId":"1d0d11d5-1bfa-4b62-b83e-a2ddd0b8fa5b","createdByUserId":"9363d00b-41e4-4db5-9f13-aafb79bfb12b"}'
