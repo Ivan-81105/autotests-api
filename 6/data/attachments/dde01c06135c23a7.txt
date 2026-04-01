@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDA4OjI1OjA0LjI5NDk0MSIsInVzZXJfaWQiOiI5MmZiZGU0Mi0wYzg1LTRmNDYtYjdhNS0yMWNlN2Y1ZGVkNDkifQ.6Vb04A2fB70t-A7WfU_IqTxkg5QUiqMOVtRCrEGdP2s' \
+ -H 'content-length: 357' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Agent set something practice kitchen.","maxScore":81,"minScore":2,"description":"Anyone seat section magazine whose join. Provide perform view blue both article there build. Dinner system fine brother write.","estimatedTime":"4 weeks","previewFileId":"dea82060-554e-4736-bc87-9a7fde265174","createdByUserId":"92fbde42-0c85-4f46-b7a5-21ce7f5ded49"}'

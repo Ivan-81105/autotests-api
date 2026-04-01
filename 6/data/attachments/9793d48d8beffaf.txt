@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDA4OjI1OjA0Ljg3OTIxNiIsInVzZXJfaWQiOiI0ODQ4NTgwNy1lYzExLTQ4YTMtYjRjNC1iYjJiZmQyN2I3ZjgifQ.HogP4leZynM72iQfUUnPJbjrYeHxnBBdwv-nqkiKPaQ' \
+ -H 'content-length: 400' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Step dog same seat cup stand civil.","maxScore":56,"minScore":3,"description":"Among cause instead possible morning generation. Least recent street style. Growth stage writer so.\nReal trade business action while. Many perform else participant child.","estimatedTime":"7 weeks","previewFileId":"6d3fd84c-53b3-4a76-83d9-84a7d108b693","createdByUserId":"48485807-ec11-48a3-b4c4-bb2bfd27b7f8"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/courses/9c656c3a-f32d-435d-8adb-686daae101c6' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDA4OjI1OjAxLjg5MDU2MiIsInVzZXJfaWQiOiI4NjI2YzhhNS1lNTNlLTQ5ZWYtYTk3Mi0yYzMzYjYwZjY2YWIifQ.kU-LvNrY04SBsf78BDzlMbrnmea4BbgdyU9vXTPn3pg' \
+ -H 'content-length: 236' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Could use want TV.","maxScore":99,"minScore":13,"description":"Authority son upon public whom wife. Decade next painting month main.\nShoulder professional serve. Station whose physical decade set.","estimatedTime":"10 weeks"}'

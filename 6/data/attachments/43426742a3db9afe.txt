@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDA4OjI1OjAwLjcyMDAwNyIsInVzZXJfaWQiOiI1NTQyZjUzZC03NTU0LTQ3ZGItODA4Yi1kMWE1MzczZjY1OGEifQ.jJ5hfefrITdyMkddI_6Fj9DE4teshnm2207DeqDTP_s' \
+ -H 'content-length: 364' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Approach may commercial base arm media general.","maxScore":57,"minScore":10,"description":"Sense fall mother ok assume stock daughter east. Image job behind task cup black data. They lay collection face art heart.","estimatedTime":"3 weeks","previewFileId":"4030c5ed-e0bb-4f67-bc69-b575cd25f634","createdByUserId":"5542f53d-7554-47db-808b-d1a5373f658a"}'

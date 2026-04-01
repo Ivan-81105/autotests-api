@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDA4OjI1OjA0Ljg3OTIxNiIsInVzZXJfaWQiOiI0ODQ4NTgwNy1lYzExLTQ4YTMtYjRjNC1iYjJiZmQyN2I3ZjgifQ.HogP4leZynM72iQfUUnPJbjrYeHxnBBdwv-nqkiKPaQ' \
+ -H 'content-length: 338' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Clearly lose already million top.","courseId":"56a6f069-5298-4ed6-9561-1db3b015b65c","maxScore":64,"minScore":7,"orderIndex":79,"description":"Must fly camera. See someone than road large happen shake.\nPretty offer second very different toward. Say record government partner conference news company.","estimatedTime":"7 weeks"}'

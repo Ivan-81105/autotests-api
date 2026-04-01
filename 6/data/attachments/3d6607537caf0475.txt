@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDA4OjI1OjAxLjg5MDU2MiIsInVzZXJfaWQiOiI4NjI2YzhhNS1lNTNlLTQ5ZWYtYTk3Mi0yYzMzYjYwZjY2YWIifQ.kU-LvNrY04SBsf78BDzlMbrnmea4BbgdyU9vXTPn3pg' \
+ -H 'content-length: 386' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Population shake whom never not father.","maxScore":99,"minScore":7,"description":"Water cup positive foreign. Choice century his college claim everybody whether. Own almost identify from answer senior. Rock Congress clearly main agent.","estimatedTime":"4 weeks","previewFileId":"8549987e-70c8-4b72-a870-acf853e14490","createdByUserId":"8626c8a5-e53e-49ef-a972-2c33b60f66ab"}'
