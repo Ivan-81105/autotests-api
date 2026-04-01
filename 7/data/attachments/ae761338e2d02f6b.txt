@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDA4OjI5OjQxLjMxNzkxNSIsInVzZXJfaWQiOiJmYjA5MmZkMC1kMjdlLTRkMzktYTFmOS1lZjk3MjEwZTJmN2YifQ.XDQ5RSpekIG1-o3TVETm3rDgxF4CPmeIL7xqV49fliE' \
+ -H 'content-length: 416' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Head would gas green suddenly example.","maxScore":99,"minScore":9,"description":"Different run half look school author catch. Relationship information game company memory hand game.\nWorld quite if. Wait letter between item hair six smile. Power remain reduce want.","estimatedTime":"6 weeks","previewFileId":"b9a99fa2-b168-4ffb-a021-9aee2196f517","createdByUserId":"fb092fd0-d27e-4d39-a1f9-ef97210e2f7f"}'

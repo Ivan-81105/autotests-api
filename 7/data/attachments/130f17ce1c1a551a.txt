@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDA4OjI5OjM2LjYwNjMwMyIsInVzZXJfaWQiOiI5YmMzNWU4NC02ZjFjLTQ5NDgtOWU0ZC1lMWQyOTg0YmVkODQifQ.cUwDL3N8QW_tUbn61Ap2aMPB89VrEJYCLVTmvpX-C50' \
+ -H 'content-length: 416' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Choose his side do use.","maxScore":57,"minScore":23,"description":"Three system high. Manager student idea middle scientist. Sing benefit summer may your.\nWall yet dream card brother. Dream low effect without consider effect. Visit at research trade establish lay.","estimatedTime":"2 weeks","previewFileId":"fc6791ae-c5b2-43dc-b28e-6ef2d868c489","createdByUserId":"9bc35e84-6f1c-4948-9e4d-e1d2984bed84"}'
