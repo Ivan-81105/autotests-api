@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDExOjUzOjI1LjM4ODkzMyIsInVzZXJfaWQiOiI4OGJkYjBlYS01ZWM0LTQ1NjUtODMzOS1iYzM2NGZhNWY0M2UifQ.tyeV8oOkVLLFRj9xcDJHpypoqI2pB5eJGhhVqfq5PlU' \
+ -H 'content-length: 401' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Right enough performance.","maxScore":90,"minScore":11,"description":"Focus return top reality. Hour challenge relationship including.\nAround particular leg.\nLess early rule. Prevent ball defense view skill. Them worry bar play hold successful card.","estimatedTime":"2 weeks","previewFileId":"f35df54b-8b04-47a1-8123-19e9547c7c8a","createdByUserId":"88bdb0ea-5ec4-4565-8339-bc364fa5f43e"}'

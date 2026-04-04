@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDExOjUzOjI2Ljg1MTI0OSIsInVzZXJfaWQiOiIwMWQ4NGY3ZS0xYWRiLTQwNmYtYjgzMi05ZmRkMTZiM2JjNmUifQ._7C7iShmwuWwXYLcvJpJO5qFBoxpeQKhxdf9r9Q3BPw' \
+ -H 'content-length: 318' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Audience speak important candidate particular.","maxScore":73,"minScore":18,"description":"Exist military during often letter behind. Away under population back source.","estimatedTime":"2 weeks","previewFileId":"c4eb88c7-6981-433f-9172-761db98eac41","createdByUserId":"01d84f7e-1adb-406f-b832-9fdd16b3bc6e"}'

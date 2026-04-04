@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDExOjUzOjI1LjY2NDQ1MCIsInVzZXJfaWQiOiJlMzE5NTcxZi02OWUzLTQ5N2YtOGYzMS1hNzhiMDA3ZjdlN2QifQ.zm7Q9RketoZlsTOPi4a9TSfWd2K0IERkIHAK02rILwY' \
+ -H 'content-length: 370' \
+ -H 'content-type: application/json' \
+ -d '{"title":"President campaign price anything center civil method.","maxScore":51,"minScore":20,"description":"Risk politics man modern answer dog lay. Environment history building woman though bag. Agent test you central why point.","estimatedTime":"8 weeks","previewFileId":"a0144d5f-cffe-4bfc-86d2-7a4d72b76f80","createdByUserId":"e319571f-69e3-497f-8f31-a78b007f7e7d"}'

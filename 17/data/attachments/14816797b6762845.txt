@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDExOjUzOjI0LjIxNDY4MyIsInVzZXJfaWQiOiIzZjg0M2ExOS1iOTRkLTRjNTUtYTQ1ZC1lMzdlNWVkNTJmZjIifQ.M98j7v7pCBxAiYZiboUP1IsQiLy4EWXRGTWFAaoAXJQ' \
+ -H 'content-length: 392' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Ability assume moment stay just.","maxScore":55,"minScore":23,"description":"Lose it ball open. Safe we Republican boy experience hospital analysis miss.\nTry mention close relationship. Art play build report wind theory. Sit west television.","estimatedTime":"3 weeks","previewFileId":"e0aa0151-472e-4f7a-841d-cc3d05eb94dd","createdByUserId":"3f843a19-b94d-4c55-a45d-e37e5ed52ff2"}'

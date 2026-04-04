@@ -1,0 +1,25 @@
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises?courseId=4fda2359-d9c8-48fe-ae62-68ac3e781448
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=4fda2359-d9c8-48fe-ae62-68ac3e781448
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:119 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:72 Check that length of 'exercises' equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:45 Check exercise
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'id' equals to 6d1c13d3-07a5-4a96-822b-f82ca4911661
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'title' equals to Speak conference effect remain place window quickly.
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'course_id' equals to 4fda2359-d9c8-48fe-ae62-68ac3e781448
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'max_score' equals to 62
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'min_score' equals to 5
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'order_index' equals to 95
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'description' equals to Everybody environmental wall cover than nation. Subject significant door simple tax fine college.
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'estimated_time' equals to 7 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validation JSON schema

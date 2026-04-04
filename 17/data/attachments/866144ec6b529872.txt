@@ -1,0 +1,19 @@
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:84 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'title' equals to Ability assume moment stay just.
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'max_score' equals to 55
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'min_score' equals to 23
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'description' equals to Lose it ball open. Safe we Republican boy experience hospital analysis miss.
+Try mention close relationship. Art play build report wind theory. Sit west television.
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'estimated_time' equals to 3 weeks
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'preview_file_id' equals to e0aa0151-472e-4f7a-841d-cc3d05eb94dd
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'created_by_user_id' equals to 3f843a19-b94d-4c55-a45d-e37e5ed52ff2
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validation JSON schema

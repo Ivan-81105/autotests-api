@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDExOjUzOjI0LjQ4OTI3OSIsInVzZXJfaWQiOiIzZmQxMzQ2ZS0wNTVmLTRiMzctYmNiNC0yNzc1YjAxMDdhNTEifQ.jTEBSkncwJIBIZPXm7s59QGTwTilA-Ma2d6sU6-J5Ek' \
+ -H 'content-length: 341' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Walk receive development fear customer.","maxScore":96,"minScore":16,"description":"Government their could point. Room fly three campaign. Boy glass well perform support. Up whole join level.","estimatedTime":"5 weeks","previewFileId":"c8258a15-c44f-4707-8689-ae1fbc893cae","createdByUserId":"3fd1346e-055f-4b37-bcb4-2775b0107a51"}'

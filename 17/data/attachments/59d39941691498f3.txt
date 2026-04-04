@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/courses/4a498e25-a4be-40b6-8cda-34fec12c43d9' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDExOjUzOjI0LjQ4OTI3OSIsInVzZXJfaWQiOiIzZmQxMzQ2ZS0wNTVmLTRiMzctYmNiNC0yNzc1YjAxMDdhNTEifQ.jTEBSkncwJIBIZPXm7s59QGTwTilA-Ma2d6sU6-J5Ek' \
+ -H 'content-length: 294' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Interesting cover house authority cold without pay.","maxScore":62,"minScore":3,"description":"Rock act question everything evidence view. Minute send entire check pull end once.\nBegin some short his. Lawyer middle can sport. Right drive plan risk modern.","estimatedTime":"2 weeks"}'

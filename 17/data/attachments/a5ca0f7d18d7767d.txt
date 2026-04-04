@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDExOjUzOjIzLjA3NjMwNyIsInVzZXJfaWQiOiJkNzAwMTE2My03ZjYyLTQ5NmItOTg4My0wMWE5Mzg5ZDBlYjEifQ.EOjchLUl2wWawOQdFsG7yXA_GAxNmw1RmErZSp1dtso' \
+ -H 'content-length: 366' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Score sport money responsibility skin fact.","maxScore":69,"minScore":8,"description":"Medical happen nice meeting. In something before box.\nBad born hundred. Begin play crime central. Building plan cause situation.","estimatedTime":"9 weeks","previewFileId":"17c14959-db9c-48a6-8db8-c9ce9731996d","createdByUserId":"d7001163-7f62-496b-9883-01a9389d0eb1"}'
