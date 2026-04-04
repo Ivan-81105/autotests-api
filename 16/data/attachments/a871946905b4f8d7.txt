@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/exercises/41392a1f-ec07-4e01-a285-2a1e8f5fb515' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDExOjQ3OjM5LjkyMzY0MCIsInVzZXJfaWQiOiI4NWFiZTM1OC1hNThmLTQ1Y2MtYjM1My1iZTEwNDJmMmQxMjQifQ.bKVoaGh8rUyffdAhAUJ6NFQ-5HO1N6N26Z9SbOKUI0s' \
+ -H 'content-length: 279' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Fill every rise make blood same.","maxScore":74,"minScore":15,"orderIndex":16,"description":"Into my practice so. Maybe exist to unit. Beautiful behavior parent home box.\nAbout call pressure south police. Board eight also suddenly set city.","estimatedTime":"9 weeks"}'

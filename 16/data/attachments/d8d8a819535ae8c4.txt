@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDExOjQ3OjQwLjE5NjM5MyIsInVzZXJfaWQiOiI5YzVhMDU4NS1iNzE2LTQ3OTEtOTY1Yy1iOWZjZjkzNjRmYjYifQ.u4nVtt5ysWXiUuf9yaYK83q8tEPDg0MX6C7P6_TcTw4' \
+ -H 'content-length: 406' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Marriage with make class dark later me region.","maxScore":56,"minScore":27,"description":"Best home building. Close until miss research nation marriage growth.\nStatement wind produce leave. Cup matter this along inside nor. Answer stuff join significant.","estimatedTime":"2 weeks","previewFileId":"4bfcbb4c-0b41-4286-9f53-257d43c8525c","createdByUserId":"9c5a0585-b716-4791-965c-b9fcf9364fb6"}'

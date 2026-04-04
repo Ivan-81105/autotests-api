@@ -1,0 +1,18 @@
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:84 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'title' equals to Former how theory answer.
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'max_score' equals to 72
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'min_score' equals to 17
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'description' equals to Republican deep shoulder performance democratic. Painting American similar question positive everybody. Control section buy figure management each charge.
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'estimated_time' equals to 2 weeks
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'preview_file_id' equals to 139a4463-1789-48a8-8b86-009b7b689895
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'created_by_user_id' equals to 1a74d5bd-0e7c-45cf-a1b4-4e6cd73f52ad
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validation JSON schema

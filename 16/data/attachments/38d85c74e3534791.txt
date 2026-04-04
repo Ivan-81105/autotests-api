@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDExOjQ3OjM5LjAwMzI0NiIsInVzZXJfaWQiOiIyYmQ3MGMxNy1mYjA2LTQyNTgtODRlMC0xMGI5YmZmNzA2YWMifQ.ZqDpbVVcT-G--ENOjpIHIt6rIo0sqPfKODsQg6_fgD0' \
+ -H 'content-length: 379' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Current eight main if plant push perform.","maxScore":58,"minScore":4,"description":"Detail all dinner interesting leg rest upon. Town fact last door.\nShoulder table production somebody follow she who. Team smile agree be final.","estimatedTime":"2 weeks","previewFileId":"9ddafc71-465b-4f94-ba94-2feb999d615a","createdByUserId":"2bd70c17-fb06-4258-84e0-10b9bff706ac"}'

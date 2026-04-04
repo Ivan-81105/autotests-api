@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDExOjQ3OjM5LjkyMzY0MCIsInVzZXJfaWQiOiI4NWFiZTM1OC1hNThmLTQ1Y2MtYjM1My1iZTEwNDJmMmQxMjQifQ.bKVoaGh8rUyffdAhAUJ6NFQ-5HO1N6N26Z9SbOKUI0s' \
+ -H 'content-length: 409' \
+ -H 'content-type: application/json' \
+ -d '{"title":"From media remain oil dinner have.","maxScore":68,"minScore":25,"description":"Inside often interesting increase.\nRisk too suggest ground both fund. Form culture list sea now box. Room series vote will race democratic new. Oil television eight easy it treat.","estimatedTime":"8 weeks","previewFileId":"7b257f9c-682f-40a5-8776-38775244b5a4","createdByUserId":"85abe358-a58f-45cc-b353-be1042f2d124"}'

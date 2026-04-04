@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDExOjQ3OjQxLjEyNjI3OSIsInVzZXJfaWQiOiIxMzdkN2NkOS05YzRkLTRhNWMtYTJjMC1jZDgwNDg0Yzk2NWEifQ.yYS6GIQw4s4j2eRRGYTjln-ySSC69PB06rmL-TO_nLY' \
+ -H 'content-length: 322' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Full anyone discuss offer pressure.","courseId":"d88276b9-4338-411a-b2e9-d6f0997fb4e7","maxScore":58,"minScore":5,"orderIndex":39,"description":"Even argue could work particular defense model. Million industry fear market although strong certain. Whose step industry strong day agent.","estimatedTime":"4 weeks"}'

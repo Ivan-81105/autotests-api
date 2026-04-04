@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDExOjQ3OjQxLjEyNjI3OSIsInVzZXJfaWQiOiIxMzdkN2NkOS05YzRkLTRhNWMtYTJjMC1jZDgwNDg0Yzk2NWEifQ.yYS6GIQw4s4j2eRRGYTjln-ySSC69PB06rmL-TO_nLY' \
+ -H 'content-length: 375' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Nor heart visit allow trade.","maxScore":60,"minScore":3,"description":"As environment against nor future likely. Information simply environment rock.\nFood present million like. Every be how. Debate impact much fight social.","estimatedTime":"8 weeks","previewFileId":"656b56dc-3457-4add-937c-4363fb14a992","createdByUserId":"137d7cd9-9c4d-4a5c-a2c0-cd80484c965a"}'

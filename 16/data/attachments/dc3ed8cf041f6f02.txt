@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDExOjQ3OjM4LjcyODYyNCIsInVzZXJfaWQiOiI5NDcwODQ2Ny00ZmI4LTQ5NTYtYjdmMS1hMjFhOGUwNWYwNGMifQ.h5szTCumoKtx3PFYW9WGXv9eaZMAOYbY8gkMjjTqRXQ' \
+ -H 'content-length: 399' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Music weight far a.","maxScore":81,"minScore":21,"description":"Decide hospital dinner unit. Never score water nation truth a later report. Whole final operation remember beat past.\nSummer somebody arrive eat. Process politics determine always can.","estimatedTime":"4 weeks","previewFileId":"da93c657-2cd8-4b47-bf01-57d4477c87e3","createdByUserId":"94708467-4fb8-4956-b7f1-a21a8e05f04c"}'

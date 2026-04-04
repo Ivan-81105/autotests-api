@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/courses/9f63d186-3a0b-44ac-88db-b2467af77ecb' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDExOjQ3OjM4LjcyODYyNCIsInVzZXJfaWQiOiI5NDcwODQ2Ny00ZmI4LTQ5NTYtYjdmMS1hMjFhOGUwNWYwNGMifQ.h5szTCumoKtx3PFYW9WGXv9eaZMAOYbY8gkMjjTqRXQ' \
+ -H 'content-length: 225' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Open visit successful although.","maxScore":53,"minScore":15,"description":"Part address go challenge mission general. Send central wide central executive she. Perhaps data network their.","estimatedTime":"1 weeks"}'

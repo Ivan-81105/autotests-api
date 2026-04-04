@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDExOjQ3OjM5LjkyMzY0MCIsInVzZXJfaWQiOiI4NWFiZTM1OC1hNThmLTQ1Y2MtYjM1My1iZTEwNDJmMmQxMjQifQ.bKVoaGh8rUyffdAhAUJ6NFQ-5HO1N6N26Z9SbOKUI0s' \
+ -H 'content-length: 391' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Environment another how feeling board national join.","courseId":"c3b5317e-8f05-4d2d-8493-438ef4151ffe","maxScore":97,"minScore":5,"orderIndex":76,"description":"Current statement time statement appear conference. Decision federal drop rise speech. Class again next speech. Note high feeling talk.\nCondition support large door push child face behavior.","estimatedTime":"4 weeks"}'

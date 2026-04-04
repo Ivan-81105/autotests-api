@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDExOjQ3OjQxLjQwMDk4MiIsInVzZXJfaWQiOiJlNzE1MTQzZi00NTQ1LTQ4MWEtYTc3ZS0wYThmZTU0M2IzYmYifQ.dfEAnKK9ruByUlVgllAUDk1D44l8fQgX9vK9dWJyzrk' \
+ -H 'content-length: 396' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Pull fight seat television.","maxScore":100,"minScore":3,"description":"Operation south resource near drop people candidate across.\nAir yet soon edge charge authority meet newspaper. Stop the reveal our. Between hair reason agency major current.","estimatedTime":"1 weeks","previewFileId":"d6fd9773-564a-47fc-b036-3c14052dd02d","createdByUserId":"e715143f-4545-481a-a77e-0a8fe543b3bf"}'
