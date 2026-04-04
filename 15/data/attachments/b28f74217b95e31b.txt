@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDExOjMxOjA4Ljk3NDM2NyIsInVzZXJfaWQiOiI0NDhlYTlhNi1iZDYxLTQ1MGItOThmZS1hNDUwMDdhODkzM2MifQ.VHk6hjG4WF9bO3wsa--s7x51FtaPe0gSPBIjq0zvvUc' \
+ -H 'content-length: 367' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Reflect story sort interview suffer six apply majority.","courseId":"b2c01cd8-43cb-4c09-87e7-fb8808e8cce4","maxScore":78,"minScore":5,"orderIndex":10,"description":"Major across simply maybe term. Trip include have part.\nCareer type together leave. Republican red father note wish certain. American maintain situation Mrs maybe.","estimatedTime":"6 weeks"}'

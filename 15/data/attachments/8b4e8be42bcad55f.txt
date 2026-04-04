@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDExOjMxOjA4LjM5MTA0OCIsInVzZXJfaWQiOiI5OGM0ZTU1ZC1iNzBlLTQ3NGEtOTk3MS1jMGM2MTM3MDEyNWYifQ.vEOPkxQGeQ1JpBrY__kDZ0jFuzAZWRvdBbgMO4X0kcc' \
+ -H 'content-length: 363' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Believe again management author past expect Mr theory.","maxScore":53,"minScore":20,"description":"Adult around line conference since third. Age up must.\nItem human see computer argue five. International major a.","estimatedTime":"4 weeks","previewFileId":"8d95de27-b54c-40f1-b780-b32d605fbfb5","createdByUserId":"98c4e55d-b70e-474a-9971-c0c61370125f"}'

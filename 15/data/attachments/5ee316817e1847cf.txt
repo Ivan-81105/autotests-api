@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDExOjMxOjA4Ljk3NDM2NyIsInVzZXJfaWQiOiI0NDhlYTlhNi1iZDYxLTQ1MGItOThmZS1hNDUwMDdhODkzM2MifQ.VHk6hjG4WF9bO3wsa--s7x51FtaPe0gSPBIjq0zvvUc' \
+ -H 'content-length: 395' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Expect down find common small general most.","maxScore":56,"minScore":30,"description":"Window month central court small drive grow. Admit member day standard. Sound participant four economy. Idea art practice assume sense him statement certain.","estimatedTime":"4 weeks","previewFileId":"ef090cb0-7b4b-4ba5-b32f-22c1796194d4","createdByUserId":"448ea9a6-bd61-450b-98fe-a45007a8933c"}'

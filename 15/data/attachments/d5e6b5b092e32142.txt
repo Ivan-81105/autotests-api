@@ -1,0 +1,25 @@
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises/9e1c96d6-fafd-4b1f-af93-34a6e9752857
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises/9e1c96d6-fafd-4b1f-af93-34a6e9752857
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:69 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:45 Check exercise
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'id' equals to 9e1c96d6-fafd-4b1f-af93-34a6e9752857
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'title' equals to Draw quite her low.
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'course_id' equals to 73d3f7e3-0451-4e12-856c-def4e0b17b6c
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'max_score' equals to 84
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'min_score' equals to 21
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'order_index' equals to 71
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'description' equals to Act concern enter against point. And bit teacher high statement low. Shake argue enjoy move throw.
+Page will no throw difficult. Order population Republican grow official. Reduce bar economy join.
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'estimated_time' equals to 1 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validation JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDExOjMxOjEwLjg2MjA1NyIsInVzZXJfaWQiOiJiNGE1MWVlOS0yYWU4LTRjM2ItODQ4Yy01MWQxNTBlMjA4MDcifQ.sOKmyX8MfcGrhHsTnnI9YEtSTktkdDiTh-EAI8qyMb4' \
+ -H 'content-length: 401' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Figure cup girl sometimes.","maxScore":79,"minScore":14,"description":"Through ten analysis role edge eight form. Arm prevent onto last.\nThese series still artist long travel think. Main little food customer Mr. Minute poor tax save sell because end.","estimatedTime":"1 weeks","previewFileId":"d0a748ce-c5e0-4277-a3ce-7579c8cdb82d","createdByUserId":"b4a51ee9-2ae8-4c3b-848c-51d150e20807"}'

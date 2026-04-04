@@ -1,0 +1,26 @@
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises?courseId=2ee02dc2-0ee6-4f3c-b30e-6d8bdc998555
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=2ee02dc2-0ee6-4f3c-b30e-6d8bdc998555
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:119 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:72 Check that length of 'exercises' equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:45 Check exercise
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'id' equals to 5e4cbe33-83ac-4356-807d-5c609b9fab48
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'title' equals to Job I how daughter mother.
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'course_id' equals to 2ee02dc2-0ee6-4f3c-b30e-6d8bdc998555
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'max_score' equals to 65
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'min_score' equals to 6
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'order_index' equals to 92
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'description' equals to Raise class personal than process college. Prevent quite adult thank.
+Scene avoid scientist section require. Base success former huge us challenge type. Hold remain senior cell improve pretty.
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'estimated_time' equals to 7 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validation JSON schema

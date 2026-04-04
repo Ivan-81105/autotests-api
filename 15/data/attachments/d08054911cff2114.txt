@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDExOjMxOjA2LjkxODkxMCIsInVzZXJfaWQiOiJhYjI5MjM2MS1jYWU0LTQ2YzctYTEzMS02YjYzNDc4NGE5MDMifQ.en8r60CRkcvHEQUXIIaxvz2qerNQdwpLHJyeBGlJwNY' \
+ -H 'content-length: 367' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Own risk public million job.","maxScore":84,"minScore":30,"description":"Exactly action soldier environment reality. Book student prevent early. Toward four recent deal pass. Lay low expert of doctor education window.","estimatedTime":"3 weeks","previewFileId":"8bdf0fa4-4d83-4767-9270-dd953c08344e","createdByUserId":"ab292361-cae4-46c7-a131-6b634784a903"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/courses/4e401fc0-acae-43eb-b861-bd0ecea0573d' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDExOjMxOjA4LjM5MTA0OCIsInVzZXJfaWQiOiI5OGM0ZTU1ZC1iNzBlLTQ3NGEtOTk3MS1jMGM2MTM3MDEyNWYifQ.vEOPkxQGeQ1JpBrY__kDZ0jFuzAZWRvdBbgMO4X0kcc' \
+ -H 'content-length: 303' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Himself relationship positive north glass article clear north.","maxScore":83,"minScore":25,"description":"In face off sort whose. Record impact unit fine various. Share throughout design capital million.\nGreat either area pull. Near day west remain drop play end.","estimatedTime":"1 weeks"}'

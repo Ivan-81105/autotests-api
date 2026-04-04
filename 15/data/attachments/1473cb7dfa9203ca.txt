@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDExOjMxOjEwLjIxMDQ4MCIsInVzZXJfaWQiOiI5ZWE4YmQ1YS03ZmU0LTQ1ZGUtYTY2Yi0xMDcwZjljZGQwODEifQ.hqQknwxMit2z8U_JjblldKhjelHVgIb1o4DP3d-VTVc' \
+ -H 'content-length: 364' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Stop thing suffer teacher spring.","maxScore":95,"minScore":20,"description":"Story none left she act allow across sell. Research provide board view have student. Behavior activity boy speech move against economic.","estimatedTime":"5 weeks","previewFileId":"f43fa633-cc0f-458a-8204-41ef773c2e85","createdByUserId":"9ea8bd5a-7fe4-45de-a66b-1070f9cdd081"}'

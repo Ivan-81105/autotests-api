@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDExOjMxOjA3LjgwNjc4OSIsInVzZXJfaWQiOiJiNzg4YzM5Ny02OGY2LTRjMTAtODM2NS0xOGZkMTlmOTk0MTAifQ.q5G1I-CjgzAsyRX_qy0f294tUpTXPnDqblZCeUi2ZqE' \
+ -H 'content-length: 412' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Box just those evidence skin gun.","maxScore":76,"minScore":15,"description":"Provide form science hot. Against win yes sometimes.\nWell east financial community table population education. Without peace friend when difference. However make condition media near.","estimatedTime":"5 weeks","previewFileId":"49b735cf-eb0b-415d-aaf4-7fea6495051c","createdByUserId":"b788c397-68f6-4c10-8365-18fd19f99410"}'

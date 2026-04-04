@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDExOjMxOjEwLjIxMDQ4MCIsInVzZXJfaWQiOiI5ZWE4YmQ1YS03ZmU0LTQ1ZGUtYTY2Yi0xMDcwZjljZGQwODEifQ.hqQknwxMit2z8U_JjblldKhjelHVgIb1o4DP3d-VTVc' \
+ -H 'content-length: 365' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Draw quite her low.","courseId":"73d3f7e3-0451-4e12-856c-def4e0b17b6c","maxScore":84,"minScore":21,"orderIndex":71,"description":"Act concern enter against point. And bit teacher high statement low. Shake argue enjoy move throw.\nPage will no throw difficult. Order population Republican grow official. Reduce bar economy join.","estimatedTime":"1 weeks"}'

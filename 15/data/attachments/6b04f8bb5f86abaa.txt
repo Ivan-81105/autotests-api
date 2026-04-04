@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDExOjMxOjExLjQ0NzI0MCIsInVzZXJfaWQiOiJjM2I3MGEzOC0zYzhiLTRmZDQtOThiMC1iNmU5ODBmM2Y5ZDAifQ.ZzdIfWzTPcmVt3yT2w-X10WpVwhba2Y3V8_ZtAOwrFs' \
+ -H 'content-length: 397' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Dinner reflect foreign degree difference some degree.","maxScore":87,"minScore":24,"description":"Find police director simply town.\nLine four boy office find structure include. Hair already everyone guess trouble available. Energy visit turn add.","estimatedTime":"4 weeks","previewFileId":"339a6a0c-d7c0-4cd4-b19f-8807529df5c7","createdByUserId":"c3b70a38-3c8b-4fd4-98b0-b6e980f3f9d0"}'
