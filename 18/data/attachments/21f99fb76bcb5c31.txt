@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/exercises/e55f3d15-5f94-4803-a5c4-16241aa17b4d' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA3VDA4OjE2OjI5LjE2OTkyNiIsInVzZXJfaWQiOiI1YTk2ZDc4YS1mMTI1LTQzMzctOTFkZC1iZjgyYjI2NmIwYjEifQ.YgV0Mv5K0x8uJZHKmIim2An7XKRvmnITdDMDPa3Y8gI' \
+ -H 'content-length: 250' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Visit reach north sea bill stuff.","maxScore":61,"minScore":1,"orderIndex":53,"description":"Finally begin girl painting kid recently next. Figure assume offer about seat suggest. Accept state democratic feeling.","estimatedTime":"1 weeks"}'

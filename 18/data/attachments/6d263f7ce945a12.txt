@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA3VDA4OjE2OjMxLjI2ODI3NCIsInVzZXJfaWQiOiI4NmUzZmEwMy01ODg5LTQ2YTUtOGYxMS00MTg5NjI0NGI1MDcifQ.3IkDliV8lFqf3tTmGFMSsAmAXyvuJGzoFVXlG8ql6oA' \
+ -H 'content-length: 391' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Call onto far least.","maxScore":51,"minScore":2,"description":"Situation check stop late affect. Maintain director physical same prepare just.\nRed thought brother television form quite eight. His under team. Push huge challenge nearly box.","estimatedTime":"4 weeks","previewFileId":"1760bd6e-5914-4783-b6ad-9db2ce008463","createdByUserId":"86e3fa03-5889-46a5-8f11-41896244b507"}'

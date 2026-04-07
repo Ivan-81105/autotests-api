@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA3VDA4OjE2OjI2LjU4ODgyOCIsInVzZXJfaWQiOiIwODM2NTNkZC1hNjVmLTQwNTEtOTYyMy0xMWFiNmEzMjAxNDEifQ._oyffFBt7ch8m63XtctSCUNKC79p5fCHld8_P-5nbyU' \
+ -H 'content-length: 331' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Feeling owner everyone hot several avoid side.","maxScore":63,"minScore":28,"description":"Girl throughout morning any share. Thus close dark worker least accept. Future apply pass.","estimatedTime":"4 weeks","previewFileId":"f1047664-9429-4b99-bc0f-ce5de534a6fa","createdByUserId":"083653dd-a65f-4051-9623-11ab6a320141"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA3VDA4OjE2OjI3LjcyNzc0MiIsInVzZXJfaWQiOiI3NWYyMjE0NC1lZjEwLTRiZmEtOTEwMy1jMmM5OWJjYjYwMTUifQ.vLJhrx6bay-OEOdIrwSsAN7bubmNO0ETYWi7LrB0zq4' \
+ -H 'content-length: 341' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Sing wear American individual some score.","maxScore":87,"minScore":10,"description":"Win near nor receive hospital attack. Answer customer thing near next treatment though. Field always act.","estimatedTime":"1 weeks","previewFileId":"72678f04-4a45-4648-9e35-0be7ec0d1db7","createdByUserId":"75f22144-ef10-4bfa-9103-c2c99bcb6015"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA3VDA4OjE2OjI5LjE2OTkyNiIsInVzZXJfaWQiOiI1YTk2ZDc4YS1mMTI1LTQzMzctOTFkZC1iZjgyYjI2NmIwYjEifQ.YgV0Mv5K0x8uJZHKmIim2An7XKRvmnITdDMDPa3Y8gI' \
+ -H 'content-length: 295' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Tree let south data.","maxScore":73,"minScore":11,"description":"Final adult yourself key role attorney without. Election act as often push view.","estimatedTime":"3 weeks","previewFileId":"37dd64c3-fc1c-47f0-969b-e80ecd8924c4","createdByUserId":"5a96d78a-f125-4337-91dd-bf82b266b0b1"}'

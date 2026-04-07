@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA3VDA4OjE2OjI4Ljg5NzI5MSIsInVzZXJfaWQiOiIxNTFjMzhmOS1iNzY2LTQ2YWItODAyYS1hNThkYjhmNzc2YzUifQ.buHri2hmZLPphh5R6sfBDq63IB74izlwOlGNbHpRIqg' \
+ -H 'content-length: 337' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Floor western discover wife.","maxScore":88,"minScore":18,"description":"Health responsibility here where expert remember. Street despite even individual write pattern participant before.","estimatedTime":"9 weeks","previewFileId":"889ff63d-c317-4dc8-8c11-8b36811301bd","createdByUserId":"151c38f9-b766-46ab-802a-a58db8f776c5"}'

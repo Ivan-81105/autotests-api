@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA3VDA4OjE2OjI4LjAwMTA3MiIsInVzZXJfaWQiOiJmYmUyNjk5MC0zZjhlLTRjYTAtYmNhNS1hNWU5MDU1YmEzODYifQ.UBisJl7QoJPe8LIH5z0AGfojBdZ4t2MCMzXRubVAsX8' \
+ -H 'content-length: 367' \
+ -H 'content-type: application/json' \
+ -d '{"title":"These describe reflect.","maxScore":89,"minScore":24,"description":"Expect use successful manager hit mission. Rule none that east. World pull draw hope.\nProgram west event born medical. Feeling believe car material.","estimatedTime":"5 weeks","previewFileId":"1000f13f-4934-48e4-83ea-8f58e9bd6a2e","createdByUserId":"fbe26990-3f8e-4ca0-bca5-a5e9055ba386"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA3VDA4OjE2OjMwLjA3NTEyMCIsInVzZXJfaWQiOiIyZDAzMTM0ZS1jNWI4LTQ0MjYtODU5MC05YTUxYjg0Mjk2NTMifQ.YMsGF6CTB-cnClF0cIpULSt8hVaP_VMr0ElMjVU1pmk' \
+ -H 'content-length: 409' \
+ -H 'content-type: application/json' \
+ -d '{"title":"If lose case feel fire company discuss.","maxScore":65,"minScore":21,"description":"Computer those place prevent bag continue.\nStand quickly history music Mrs we PM begin. Include audience same develop. Mrs grow condition involve offer time others knowledge.","estimatedTime":"6 weeks","previewFileId":"b77a466b-42f0-46bf-a116-fcdad060e7a2","createdByUserId":"2d03134e-c5b8-4426-8590-9a51b8429653"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA3VDA4OjE2OjMwLjM0OTM4MSIsInVzZXJfaWQiOiI0YzI5NTI1ZC1mODcxLTRhNTUtODFlNS1iZmMxZDVlNWRjOGUifQ._t4thhVdevKSwdadYy4qOtUriT8_cnobWtcil8Hko_M' \
+ -H 'content-length: 368' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Discover prove citizen arrive natural.","maxScore":86,"minScore":19,"description":"Speech guess late debate purpose maybe travel. Source forget activity than.\nTrip agent statement. Than effect policy story sell work.","estimatedTime":"10 weeks","previewFileId":"a89b2764-f524-412e-a34f-43b4b75f5353","createdByUserId":"4c29525d-f871-4a55-81e5-bfc1d5e5dc8e"}'

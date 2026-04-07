@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/courses/fc8b9357-3dcb-4637-bac8-734a08f348f5' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA3VDA4OjE2OjI4LjAwMTA3MiIsInVzZXJfaWQiOiJmYmUyNjk5MC0zZjhlLTRjYTAtYmNhNS1hNWU5MDU1YmEzODYifQ.UBisJl7QoJPe8LIH5z0AGfojBdZ4t2MCMzXRubVAsX8' \
+ -H 'content-length: 221' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Catch page tonight.","maxScore":77,"minScore":6,"description":"Nothing end much little.\nGroup new more tend them Democrat they. Buy style by fill. Share thank have area simple field.","estimatedTime":"1 weeks"}'
