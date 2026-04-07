@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/exercises/1bd2c8dc-4a5d-4972-b1cf-ef873c7542d1' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA3VDA4OjQ4OjU2LjkyMTUyNSIsInVzZXJfaWQiOiJlNzZhN2NjZS0yZTMyLTQ3ZjktYjQ0MS1kNDgyNjdhNGEzMDQifQ.czcuQDvHKacr-xcx1JoAaPNh00EO9KFcfs7feSLw8tM' \
+ -H 'content-length: 261' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Standard result minute detail which energy.","maxScore":63,"minScore":12,"orderIndex":77,"description":"Plant discover state under certain happen. Industry certain everything reveal for upon finally. Mouth room anyone fast.","estimatedTime":"1 weeks"}'

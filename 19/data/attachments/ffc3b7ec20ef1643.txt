@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA3VDA4OjQ4OjU0LjgxMDc4MiIsInVzZXJfaWQiOiJlYzJlZjI0OS1iYzBiLTQ0NDQtYTNhZi01OTQ3NjRlY2M2MWQifQ._f1Ea9aG0Xr_Q-zyF79Cd0U6BuHCU_2Ao0U-S4DDuuI' \
+ -H 'content-length: 396' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Focus especially position push.","maxScore":53,"minScore":10,"description":"Cup weight vote perform even sit candidate. Ask different candidate heart ask agency however.\nEnvironmental popular future kind. Environmental main should without guess.","estimatedTime":"9 weeks","previewFileId":"f9cc69d6-c7a5-4929-b566-58bb02d1c2aa","createdByUserId":"ec2ef249-bc0b-4444-a3af-594764ecc61d"}'

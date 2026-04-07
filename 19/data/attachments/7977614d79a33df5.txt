@@ -1,0 +1,25 @@
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises/decc84e5-815b-4936-b04a-642bceaa6f05
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises/decc84e5-815b-4936-b04a-642bceaa6f05
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:69 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:45 Check exercise
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'id' equals to decc84e5-815b-4936-b04a-642bceaa6f05
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'title' equals to Identify thing difficult speech.
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'course_id' equals to 2934bc5f-b126-4b87-9e90-641350fa5940
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'max_score' equals to 79
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'min_score' equals to 22
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'order_index' equals to 36
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'description' equals to Recognize his system author car space. Forget speak task deep performance really participant whose.
+Citizen dog involve news. Information thought reveal you.
+INFO     BASE_ASSERTIONS:base.py:36 Check that 'estimated_time' equals to 3 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validation JSON schema

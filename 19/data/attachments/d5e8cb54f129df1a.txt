@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA3VDA4OjQ4OjU4LjEzMjUwNSIsInVzZXJfaWQiOiIzZmNhMzk5ZS1hYjJlLTQ2MjMtOTgwZS1hYTUwMGUxMmE4NDgifQ.urNL5SD2xXgS6RrVOQJw-89jHSLleHa8OCV2D1nk8Y0' \
+ -H 'content-length: 395' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Last reason majority red decade eye.","maxScore":90,"minScore":27,"description":"Wall us hold ability executive. Card or plan.\nRegion education other want. Sport early skin cover. Since later ready center stuff. Performance either explain true.","estimatedTime":"7 weeks","previewFileId":"bbf83fbe-2c26-4d72-b496-18cf1f71b1f4","createdByUserId":"3fca399e-ab2e-4623-980e-aa500e12a848"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA3VDA4OjQ4OjU4LjQwNzAzMyIsInVzZXJfaWQiOiJkOGVjNDQ3My0wMTZhLTQxMGMtOGUxZi02MWU0ZDRmMTk4OTQifQ.8l5I8hZ3eSRDjAVh01OoYmxyU1e8NT9HB6HL4ZNoaC8' \
+ -H 'content-length: 323' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Material Republican economic manage.","maxScore":74,"minScore":1,"description":"Hold standard nothing parent. Structure half everyone big professor say. Front cut fish item.","estimatedTime":"7 weeks","previewFileId":"d709c265-b439-4b6b-baef-4ffdf87e06df","createdByUserId":"d8ec4473-016a-410c-8e1f-61e4d4f19894"}'

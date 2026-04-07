@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA3VDA4OjQ4OjU1LjcwMjcyNiIsInVzZXJfaWQiOiI0YjZhYmQ3Ni1mNDQwLTQwOGUtYmI3Ni1lZDE1YTM3OGJjM2IifQ.WfMcFWk9eYTXi3VBZi12_2iRrFunge_00KQ8U0ntsCo' \
+ -H 'content-length: 419' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Likely actually technology visit fly.","maxScore":60,"minScore":2,"description":"Mr maintain there these wind point. Half practice wall address spend instead night form.\nNews inside take. Measure once this director. Company air medical type institution employee party.","estimatedTime":"6 weeks","previewFileId":"5760a4cf-1994-44a0-9eab-56a29d04a61f","createdByUserId":"4b6abd76-f440-408e-bb76-ed15a378bc3b"}'

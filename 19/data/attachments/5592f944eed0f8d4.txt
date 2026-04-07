@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/courses/d210642c-d490-42de-a53a-69b0b909045e' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA3VDA4OjQ4OjU1LjcwMjcyNiIsInVzZXJfaWQiOiI0YjZhYmQ3Ni1mNDQwLTQwOGUtYmI3Ni1lZDE1YTM3OGJjM2IifQ.WfMcFWk9eYTXi3VBZi12_2iRrFunge_00KQ8U0ntsCo' \
+ -H 'content-length: 214' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Notice move resource camera dog.","maxScore":83,"minScore":14,"description":"Shoulder night help describe focus. Move operation city power some. Job arrive me strong now mouth.","estimatedTime":"8 weeks"}'

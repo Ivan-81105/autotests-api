@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA3VDA4OjQ4OjU0LjIyODE0MSIsInVzZXJfaWQiOiI4NDViMDk1MS0zMTYxLTQ1NDMtODgzNS1mYzk3MGQzMGZmMDIifQ.7R6Woh_K4yepvFAbt84KcZtCAqOUQbx_Zb-9JGHulmw' \
+ -H 'content-length: 345' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Allow between since else month blood.","maxScore":75,"minScore":8,"description":"Loss rate bad thousand style billion. Across especially build serve charge stuff. Set which wall specific radio a.","estimatedTime":"2 weeks","previewFileId":"db110ac8-40f0-42d1-a987-61365923710b","createdByUserId":"845b0951-3161-4543-8835-fc970d30ff02"}'
